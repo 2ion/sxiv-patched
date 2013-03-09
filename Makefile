@@ -19,6 +19,5 @@ $(TARGET): $(TARBALL)
 clean:
 	-rm $(TARBALL)
 	-rm -rf $(TARGET)
-	-rm -rf $(UPSTREAM)/debian/$(UPSTREAM)
 	-rm -rf $(UPSTREAM)/debian
 
