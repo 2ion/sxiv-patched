@@ -19,4 +19,5 @@ License
 -------
 
 All credit goes to the original creator of sxiv @ https://github.com/muennich/sxiv.
-Thanks a bunch!
+The sxiv sources are included as a Git submodule, just go there for more
+information.
