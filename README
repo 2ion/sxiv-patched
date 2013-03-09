@@ -1,0 +1,22 @@
+sxiv-patched
+============
+
+The sxiv image viewer (https://github.com/muennich/sxiv), patched
+according to my personal preferences (default settings, and maybe more
+in the future).
+
+Also, because the sxiv Debian package in sid does not implement the bar
+at the moment, I created a Debian package called `sxiv-patched` which
+replaces the regular `sxiv` package. I just got sick of pinning such a
+trivial package.
+
+Building the package
+--------------------
+
+Just run `make package`.
+
+License
+-------
+
+All credit goes to the original creator of sxiv @ https://github.com/muennich/sxiv.
+Thanks a bunch!
