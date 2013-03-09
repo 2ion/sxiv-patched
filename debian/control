@@ -1,0 +1,15 @@
+Source: sxiv-patched
+Maintainer: Jens Oliver John <joj@2ion.de>
+Priority: optional
+Section: graphics
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8.0.0), libimlib2-dev
+Homepage: https://github.com/2ion/sxiv-patched
+
+Package: sxiv-patched
+Architecture: any
+Depends: libc6 (>= 2.10), libimlib2, libx11-6
+Suggests: libjpeg-progs, imagemagick
+Replaces: sxiv
+Description: simple X image viewer
+ The sxiv image viewer, patched according to my own preferences
