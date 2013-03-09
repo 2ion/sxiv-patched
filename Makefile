@@ -9,7 +9,7 @@ package: $(TARGET)
 
 $(TARBALL):
 	git submodule update
-	tar -czf sxiv-patched_1.0.orig.tar.gz $(UPSTREAM)/*
+	tar -czf $(TARBALL) $(UPSTREAM)/*
 
 $(TARGET): $(TARBALL)
 	mkdir $(TARGET)
